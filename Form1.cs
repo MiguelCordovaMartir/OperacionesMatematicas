@@ -20,15 +20,17 @@ namespace OperacionesMatematicas
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             //Declaraciond de variables 
+            //numero y y numero 
             double num1 = int.Parse(txtNumero1.Text);
             double num2 = int.Parse(txtNumero2.Text);
 
-            //proceso 
+            //proceso para calcular la suma y resta 
+
             double suma = num1 + num2;
             double resta = num1 - num2;
 
    
-           //salida 
+           //salida de las variables 
             txtResultado.Text = $" La suma es: {suma} " +
                $"La resta es: {resta}";
         }
